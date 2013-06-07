@@ -8,5 +8,22 @@
 @import "partials/style";
 
 
+// Colour Palette
+
+$primary: #000000;
+
 *{padding:0;margin:0;}
 
+::-moz-selection { background: $primary; color: #000000; text-shadow: none; }
+::selection { background: $primary; color: #000000; text-shadow: none; }
+
+.clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+	*zoom:1;
+}
