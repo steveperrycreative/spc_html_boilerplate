@@ -42,3 +42,8 @@ Thumbs.db
 #############
 config.rb
 .sass-cache
+.htaccess
+
+# WordPress files #
+###################
+wp-config.php
